@@ -9,8 +9,9 @@ using System.Xml.Serialization;
 
 namespace GameLibrary
 {
+    //Game class
     public class Game
-    {
+    {       
         public string Team1 { get; set; }
         public string Team2 { get; set; }
         public int Team1Score { get; set; }
