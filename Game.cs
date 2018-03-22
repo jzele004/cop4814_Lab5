@@ -1,4 +1,5 @@
-﻿using System;
+//Game class within GameLibrary namespace
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
