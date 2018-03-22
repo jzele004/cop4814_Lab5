@@ -9,9 +9,9 @@ using System.Xml.Serialization;
 
 namespace GameLibrary
 {
-    //class of Game
+    //Game class
     public class Game
-    {
+    {       
         public string Team1 { get; set; }
         public string Team2 { get; set; }
         public int Team1Score { get; set; }
@@ -31,6 +31,7 @@ namespace GameLibrary
         {
 
         }
+        //toString method overridden 
         public override string ToString()
         {
             return this.Team1 + " " + this.Team1Score + " " + this.Team2 + " " + this.Team2Score;
