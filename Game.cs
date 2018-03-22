@@ -29,6 +29,7 @@ namespace GameLibrary
         {
 
         }
+        //toString method overridden 
         public override string ToString()
         {
             return this.Team1 + " " + this.Team1Score + " " + this.Team2 + " " + this.Team2Score;
